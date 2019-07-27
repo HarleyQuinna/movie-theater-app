@@ -2,6 +2,8 @@
 
 ## Description:<br/>
 This app was basically designed based on the cineplex app, however it gave the users two options to use it, either as a guest or an admin.<br/>
+![Screenshot_20190301-142011](https://user-images.githubusercontent.com/45208712/61989014-5e933780-aff7-11e9-9bbc-e77f4909768f.png)
+
 ## Guest:<br/>
 The guest can browse the movies, select the movie, showtime to watch and go to payment page. After the checkout, each user can view their 
 order info and status, can also cancel it within 30 minutes.<br/>
