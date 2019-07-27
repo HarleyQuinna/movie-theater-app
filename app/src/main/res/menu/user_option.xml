@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Main Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/avatar">
+        <menu>
+            <item android:id="@+id/book"
+                android:icon="@drawable/g"
+                android:title="Book Info"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/person"
+                android:icon="@drawable/e"
+                android:title="Account Info"
+                app:showAsAction="never"/>
+
+        </menu>
+
+    </item>
+</menu>

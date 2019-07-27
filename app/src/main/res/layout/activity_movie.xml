@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:background="@color/colorPrimary">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_activity_back" />
+
+            <TextView
+                android:id="@+id/txtUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/date" />
+
+            <Spinner
+                android:id="@+id/spinner_date"
+                android:layout_width="195dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="3dp"
+                android:dropDownWidth="800dp">
+
+            </Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/dragon2">
+
+            <TextView
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/btnDragon"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="72dp"
+                android:text="How to train your dragon: The Hidden World"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnDragon"
+                android:layout_width="203dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/button_white"
+                android:text="See showtime"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignBottom="@+id/btnDragon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:src="@drawable/dragon_avatat" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/marvel"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/btnMarvel"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="72dp"
+                android:text="Captain Marvel"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnMarvel"
+                android:layout_width="203dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/button_white"
+                android:text="See showtime"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignBottom="@+id/btnMarvel"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:src="@drawable/marvel_avatar" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/aquaman_bg"
+            android:layout_marginTop="3dp">
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnAquaman"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginBottom="72dp"
+            android:text="Aquaman"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAquaman"
+            android:layout_width="203dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/button_white"
+            android:text="See showtime"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@+id/btnAquaman"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="34dp"
+            android:src="@drawable/aavater" />
+       </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
